@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HashtagMentionColLibModule } from 'hashtag-mention-colorizer';
 
 @Component({
   selector: 'app-index',
