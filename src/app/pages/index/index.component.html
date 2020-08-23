@@ -1,1 +1,12 @@
-<p>index works!</p>
+<div class="container">
+  <article class="card">
+    <div class="header">
+      <img src="{{userUrlImage}}" alt="" />
+      <div class="header-text">
+        <span class="name">{{name}}</span>
+        <span class="nickname">{{user}}</span>
+      </div>
+    </div>
+    <span [innerHTML]="tweet"></span>
+  </article>
+</div>
